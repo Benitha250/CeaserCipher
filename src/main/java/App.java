@@ -27,7 +27,8 @@ public class App {
             }
 
             System.out.println("Input string:\t" + sentence);
-
+            CeaserCipher ceaserCipher = new CeaserCipher(sentence,key);
+            String encryption = ceaserCipher.cipher();
         }
     }
 }
