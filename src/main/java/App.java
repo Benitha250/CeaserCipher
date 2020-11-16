@@ -14,5 +14,8 @@ public class App {
 
         //to store the shift key
         int key;
+
+        System.out.print("Enter the string: ");
+        sentence = keyboard.nextLine();
     }
 }
