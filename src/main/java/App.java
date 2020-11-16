@@ -26,9 +26,12 @@ public class App {
                 System.out.printf(" The key must be between 1 and 25, you entered %d.\n", key);
             }
 
+
+            //Encryption codes
             System.out.println("Input string:\t" + sentence);
             CeaserCipher ceaserCipher = new CeaserCipher(sentence,key);
             String encryption = ceaserCipher.cipher();
+            System.out.println("Encrypted:\t" + encryption);
         }
     }
 }
