@@ -9,4 +9,11 @@ public class CeaserCipherTest {
         char expectedOutput='b';
         assertEquals(expectedOutput, CeaserCipher.cipher(input, 1));
     }
+
+    @Test
+    public void rotateCharacter_CorrectNumberofTimes_char(){
+        char input='f';
+        char expectedOutput='i';
+        assertEquals(expectedOutput, CeaserCipher.cipher(input, 3));
+    }
 }
