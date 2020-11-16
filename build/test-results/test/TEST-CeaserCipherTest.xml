@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CeaserCipherTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-16T09:40:10" hostname="skithe" time="0.002">
+  <properties/>
+  <testcase name="rotateCharacter_CorrectNumberofTimesAtEndOfAlphabet_char" classname="CeaserCipherTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
