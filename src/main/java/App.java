@@ -37,5 +37,9 @@ public class App {
             CeaserCipher ceaserCipherDec = new CeaserCipher(encryption,-key);
             System.out.println("Decrypted:\t" + ceaserCipherDec.cipher());
         }
+
+        else{
+            System.out.println("Your sentence must be a string.");
+        }
     }
 }
