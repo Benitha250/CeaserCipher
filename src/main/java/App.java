@@ -25,6 +25,9 @@ public class App {
             if (key < 1 || key > 25) {
                 System.out.printf(" The key must be between 1 and 25, you entered %d.\n", key);
             }
+
+            System.out.println("Input string:\t" + sentence);
+
         }
     }
 }
