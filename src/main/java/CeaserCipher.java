@@ -36,4 +36,20 @@ public class CeaserCipher {
         // Here we shift back up to english characters
         return (char) (shifted + asciiShift);
     }
+
+    public  String cipher() {
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < text.length(); i++) {
+            if(text.charAt(i) == ' ')
+            {
+                sb.append(" ");
+            }
+            else
+            {
+                sb.append(cipher(text.charAt(i), shift));
+            }
+
+        }
+        return sb.toString();
+    }
 }
