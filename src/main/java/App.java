@@ -32,6 +32,10 @@ public class App {
             CeaserCipher ceaserCipher = new CeaserCipher(sentence,key);
             String encryption = ceaserCipher.cipher();
             System.out.println("Encrypted:\t" + encryption);
+
+            //decryption code
+            CeaserCipher ceaserCipherDec = new CeaserCipher(encryption,-key);
+            System.out.println("Decrypted:\t" + ceaserCipherDec.cipher());
         }
     }
 }
