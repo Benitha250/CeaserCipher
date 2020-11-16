@@ -21,6 +21,10 @@ public class App {
         if (sentence.matches(character)) {
             System.out.print("Please enter a key between 1 to 25: ");
             key = keyboard.nextInt();
+
+            if (key < 1 || key > 25) {
+                System.out.printf(" The key must be between 1 and 25, you entered %d.\n", key);
+            }
         }
     }
 }
