@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CeaserCipherTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-11-16T09:43:49" hostname="skithe" time="0.015">
+<testsuite name="CeaserCipherTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-11-16T09:48:50" hostname="skithe" time="0.004">
   <properties/>
-  <testcase name="rotateCharacter_CorrectNumberofTimesofShifts_char" classname="CeaserCipherTest" time="0.005"/>
-  <testcase name="rotateCharacter_CorrectNumberofTimes_char" classname="CeaserCipherTest" time="0.002"/>
-  <testcase name="rotateCharacter_CorrectNumberofTimesAtEndOfAlphabet_char" classname="CeaserCipherTest" time="0.002"/>
+  <testcase name="rotateCharacter_CorrectNumberofTimesofShifts_char" classname="CeaserCipherTest" time="0.002"/>
+  <testcase name="rotateCharacter_CorrectNumberofTimes_char" classname="CeaserCipherTest" time="0.0"/>
+  <testcase name="rotateCharacter_CorrectNumberofTimesAtEndOfAlphabet_char" classname="CeaserCipherTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
