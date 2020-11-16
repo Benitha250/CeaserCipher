@@ -11,4 +11,12 @@ public class CeaserCipher {
         this.text = text;
         this.shift = shift;
     }
+
+    public String getText() {
+        return text;
+    }
+
+    public int getShift() {
+        return shift;
+    }
 }
