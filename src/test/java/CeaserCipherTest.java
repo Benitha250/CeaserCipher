@@ -4,6 +4,13 @@ import static org.junit.Assert.*;
 public class CeaserCipherTest {
 
     @Test
+    public void rotateCharacter_CorrectNumberofTimesofShifts_char(){
+        char input='a';
+        char expectedOutput='z';
+        assertEquals(expectedOutput, CeaserCipher.cipher(input, 25));
+    }
+
+    @Test
     public void rotateCharacter_CorrectNumberofTimesAtEndOfAlphabet_char(){
         char input='a';
         char expectedOutput='b';
@@ -16,4 +23,6 @@ public class CeaserCipherTest {
         char expectedOutput='i';
         assertEquals(expectedOutput, CeaserCipher.cipher(input, 3));
     }
+
+
 }
