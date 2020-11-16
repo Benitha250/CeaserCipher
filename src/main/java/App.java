@@ -17,5 +17,10 @@ public class App {
 
         System.out.print("Enter the string: ");
         sentence = keyboard.nextLine();
+
+        if (sentence.matches(character)) {
+            System.out.print("Please enter a key between 1 to 25: ");
+            key = keyboard.nextInt();
+        }
     }
 }
